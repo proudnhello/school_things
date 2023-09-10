@@ -1,0 +1,10 @@
+List.h contains the List ADT  
+List.c implmentes the List ADT  
+Graph.h contains the Graph ADT  
+Graph.c implmentes the Graph ADT  
+GraphTest.c tests the Graph ADT. To compile it, run make test, then ./test to tun it  
+FindComponents.c is the main function of this project. To compile it, run make, then ./FindComponenets <inputFile> <outputFile> to run it  
+Makefile constructs the above programs  
+  
+I declared time to be a variable local to Graph.c.  
+A portion of FindComponents.c was ripped directly from FindPath.c from pa2

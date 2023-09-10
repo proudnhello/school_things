@@ -1,0 +1,8 @@
+{
+	"Type" : "Item",
+	"Id" : "mmacaule-item-a",
+	"Name" : "A small potato",
+	"Description" : "A lime size potato. Looks starchy",
+	"Takeable" : true,
+	"Moveable" : true
+}

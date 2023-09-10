@@ -1,0 +1,15 @@
+Dictionary.h defines the Dictionary ADT.  
+Dictionary.cpp implements the Dictionary ADT.  
+DictionaryTest.cpp tests the Dictionary ADT.  
+To make and run it, run make DictionaryTest then ./DictionaryTest.  
+  
+Order.cpp takes an input file filled with words, and writes them to an output file in alphabetical order  
+by performing an in order tree walk on a binary search tree.  
+It then writes a pre order tree walk of the same tree.  
+To make and run it, run make Order, then ./Order <input> <output>  
+  
+WordFrequencey.cpp takes an imput file, then writes all of the words that appear in that file
+in alphabetical order, alongside the frequency of those words.  
+To make and run it, run make WordFrequencey, then ./WordFrequencey <input> <output>  
+  
+Makefile helps compile the other programs.

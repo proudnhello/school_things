@@ -1,0 +1,10 @@
+{
+	"Type" : "UseableItem",
+	"Id" : "mmacaule-item-d",
+	"Name" : "Water balloon",
+	"Description" : "A balloon filled to the brim with water",
+	"Takeable" : true,
+	"Moveable" : true,
+	"AffectedItems" : "*",
+	"AffectedMethod" : "make_wet"
+}

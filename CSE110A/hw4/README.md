@@ -1,0 +1,3 @@
+# hw4  
+
+I noticed that c++ has some interesting behavior when it comes to intermediate float casting. For some reason, if we have int = int\*float\*int, it will perform the first operation as a float. It will then cast that to an int, and then perform the next step. This feels incorrect to me. Casting the second int to a float and then casting the whole thing to an int at the end results in much more correct answers, especially when large values are used, and is what my code currently does. I imagine doing it all in ints is much faster, which is why the compiler is willing to take a rounding error. Either way, it seems as though this behavior results in worse answers (and would be exceptionally difficult to implement with our current AST), so I have left my code as is.

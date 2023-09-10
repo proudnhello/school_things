@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{fourier}
+\usepackage{xspace}
+\usepackage{booktabs}
+\usepackage{wrapfig}
+
+\title{Finding from Dreidel Game Program}
+\author{Moore Macauley \\ University of California, Santa Cruz}
+\date{\today}
+
+\begin{document}\maketitle
+\section{How Long Does a Dreidel Game Last?}
+
+\begin{figure}[tbp]
+\begin{centering}
+\includegraphics[width=0.6\textwidth]{figure0.pdf}
+\caption{Frequency of Dreidel Game Lengths}
+\end{centering}
+\end{figure}
+
+In this assignment, I was tasked to answer a few questions about the game of Dreidel. The first was simple, given 6 players and 4 coins, how long does the average game last, how long is the longest game, and finally, how long would the shortest game last? To answer this, I ran a program simulating a game of dreidel with ten thousand different seeds, creating a list of all the different game lengths that occured, and then graphed the frequency of those different game lengths, which can be found in figure 1.
+
+To begin with, the question of what is the longest possible game of dreidel with 6 players and 4 coins is a rather simple one. In theory, a game of dreidel could very easily go on forever. All that would need to happen is for no player to ever spin a shin. While this would be infinitely unlikely, if it were to happen, no player would ever lose a coin, and as such, the game would simply never end. In practice, the longest game my simulation simulated was a total of 2539 rounds long. Admittedly infinitely shorter than the maximum possible length, this is still probably far longer than any player would find fun.
+
+Similarly, the shortest length is also rather easy to determine, at a mere 5 rounds long. All that would need to happen is all of the players except 1 roll a shin every time they roll. In the 5th round, all of the players except for our chosen lucky one would be out of coins, and rolling shin one last time would cause them to be eliminated in the 5th round. In practice, this is exceptionally unlikely, and the shortest game my simulation simulated was a mere 26 rounds.
+
+
+Finally, to find the average game length, I could naively simply sum all the lengths found, and divide that by the number of times I found the length. However, looking at the graph, we can see a large number of outliers to the right, which will heavily skew the mean towards the right. Instead, to get a better idea of the average game length, I can order my list of game lengths and use that to find the median instead, which is not as affected by outliers. Doing this, we find the average game lasts roughly 327 rounds, which looks about right given the graph.
+
+\section{Does the Length of a Dreidel Game Increase When There are More Players?}
+
+The second question I was asked was to determine if increasing the number of players increased the number of rounds a game lasted, provided that all players started with three coins. To determine this, I created a graph modeling the frequency of game length for all of the possible player counts, between 2 and 8, with the graphs for 2 and 8 being figures 2 and 3, respectively. As you can see from these graphs, the bulk of the frequencies seem to be around 20 or 30 for 2 players, while for 8 players, most of the frequencies seem to be around 300. Based on this, it is very clear that as the number of players increases, the length of games increases as well.
+
+\begin{figure}[tbp]
+\begin{centering}
+\includegraphics[width=0.6\textwidth]{figure2.pdf}
+\caption{Game Lengths With 2 Players}
+\end{centering}
+\end{figure}
+
+\begin{figure}[tbp]
+\begin{centering}
+\includegraphics[width=0.6\textwidth]{figure8.pdf}
+\caption{Game Lengths With 8 Players}
+\end{centering}
+\end{figure}
+
+This also makes sense logically. As there are more players, and every player starts with the same number of coins, there are now more coins in play. While this probably has a limited effect on when the first player is eliminated, as the odds of spinning a shin 4 times and not gaining a coin, therefore being eliminated, never changes. But once players start being eliminated, more coins have to be taken off each player on average before they are eliminated. If we consider an 8 player game, once 6 players have been eliminated, there are still the same 24 coins in play across the remaining 2 players, almost causing a 2 player, 12 coin (the coins are unlikely to be divided evenly, but the point stands) game to be played on top of all of the rounds it took to get to this point. As such, it only makes sense this would take longer than a 2 player 3 coin game.
+
+\section{Are There Any Advantages to a Player's Position in a Round?}
+
+The third and final question I was asked was if there were any advantages to having a specific position in a round. To do this, I ran the same simulation on ten thousand different seeds, but rather than graphing the frequency of game lengths, I instead graphed the frequency of player wins. I then did this for all possible combinations of player counts and coins to look for patterns.
+
+Based on these graphs, I conclude that while it is better to go later in the order, the importance of position seems to decrease both as the number of players and especially as the number of coins increases. Take, for example, figure 4, which shows the frequency of player victories when there are two players with 1 coin each, compared to figure 5, which shows the frequency of player victories when there are two players and 20 coins each. With figure 4, there is a clear step up in the number of victories player 1 had compared to player 2, while in figure 5, it is almost imperceptible.
+
+\begin{figure}[tbp]
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{test21.pdf}
+\caption{Victory frequency With 2 Players and 1 Coin}
+\end{centering}
+\end{figure}
+
+\begin{figure}[tbp]
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{test220.pdf}
+\caption{Victory frequency With 2 Players and 20 Coins}
+\end{centering}
+\end{figure}
+
+On a similar note, figure 6 shows a game with three players and 1 coin, and same as figure 4, a clear increase in victory counts can be seen as the player's position in the round goes up. But while this step was still visible in figure 5, albeit barely, by the time we get to three players and 4 coins (figure 7), it is completely gone.
+
+\begin{figure}[tbp]
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{test31.pdf}
+\caption{Victory frequency With 3 Players and 1 Coin}
+\end{centering}
+\end{figure}
+
+\begin{figure}[tbp]
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{test34.pdf}
+\caption{Victory frequency With 3 Players and 4 Coins}
+\end{centering}
+\end{figure}
+
+Finally, by the time we get to eight players and 1 coin in figure 8, the step up isn't visible at all. If we look at the raw data, it does actually still exist, but it is virtually invisible to the naked eye. Based on this, we can conclude that as the player number increases and the number of coins increases, the position of a player matters less, but that it is generally better to go as close to last as possible.
+
+\begin{figure}[tbp]
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{test81.pdf}
+\caption{Victory frequency With 8 Players and 1 Coin}
+\end{centering}
+\end{figure}
+
+My theory as to why this happens is quite simple. The idea is, in the first round, players who go earlier have a smaller chance of being able to gain a coin early on. If we, for example, consider a game of three players with 1 coin. Player 0 will never be able to get a coin on the first round, as no one could have put a coin into the pot for them to collect. Player 1, on the other hand, could theoretically collect if player 0 spun a shin, while player 2 has even more chances to collect. This also explains why it becomes less important as coin numbers and players increase, as a lead of 1 coin simply matters less when there are more coins to go around. Therefore, it makes some sense that players who are later in the round have a better chance of winning, but that this effect decreases as coin and player counts go up.
+\end{document}
+
+
+

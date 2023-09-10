@@ -1,0 +1,8 @@
+{
+	"Type" : "Item",
+	"Id" : "mmacaule-item-c",
+	"Name" : "A MASSIVE potato",
+	"Description" : "A potato that is far, far too large. Someone could probably live in this thing were it hollowed out. You've no chance of moving it.",
+	"Takeable" : false,
+	"Moveable" : false
+}

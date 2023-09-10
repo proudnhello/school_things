@@ -1,0 +1,12 @@
+{
+	"Type" : "Equipable",
+	"Id" : "mmacaule-item-d",
+	"Name" : "Steel Armor",
+	"Description" : "A shiny breastplate. Looks like it could stop a bullet",
+	"Takeable" : true,
+	"Moveable" : true,
+	"AffectedItems" : "$",
+	"AffectedMethod" : "Equip",
+	"StatsEffect" : 25,
+	"Slot" : "Chest"
+}

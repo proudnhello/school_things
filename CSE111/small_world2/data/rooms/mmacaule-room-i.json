@@ -1,0 +1,11 @@
+{
+	"Type" : "Room",
+	"Id" : "mmacaule-room-i",
+	"Name" : "Well, your",
+	"Description" : "The President of the United-fucking-States-of-America. Who'd you think I was talking about? Who the fu - Who is - What - I should kick your fucking ass, who is this?\n\nI'm the Chosen One.\nI am the President. You're in a heap of trouble.\nYou're not important enough for that information.\n",
+	"Links" : {
+		"Im-the" : "mmacaule-room-end",
+		"I-am" : "mmacaule-room-end",
+		"Youre-not" : "mmacaule-room-end"
+	}
+}

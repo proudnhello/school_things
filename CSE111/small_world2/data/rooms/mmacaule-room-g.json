@@ -1,0 +1,9 @@
+{
+	"Type" : "Room",
+	"Id" : "mmacaule-room-g",
+	"Name" : "Well, your",
+	"Description" : "Huh, ain't it the truth. Just don't let anyone who's got the President's ear hear that. You'll be making cattle-runs to New Reno 'til the end of time, pal.\n\nThe President?\n",
+	"Links" : {
+		"The-President" : "mmacaule-room-h"
+	}
+}

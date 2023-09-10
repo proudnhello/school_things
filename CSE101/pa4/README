@@ -1,0 +1,12 @@
+List.h defines the List ADT.  
+List.c implements the List ADT.  
+ListTest.c tests the List ADT.  
+Run make ListTest, then ./ListTest to make and then run ListTest.  
+  
+Matrix.c, Matrix.h, and MatrixTest.c perform the same functions as their List counterparts, but for the Matrix ADT.  
+Run make MatrixTest, then ./MatrixTest to make and then run MatrixTest.  
+  
+Sparse.c will read two matricies in from an imput file, perform a number of operation on them, and then print the results to an outfile.  
+Run make to make it, then ./Sparse <inputFile> <outputFile> to run it.  
+  
+Makefile is used to help compile the various functions.

@@ -1,0 +1,11 @@
+{
+	"Type" : "Room",
+	"Id" : "mmacaule-room-c",
+	"Name" : "Who the hell",
+	"Description" : "Who the hell is this?\n\nUh, we're all fine here. How are you?\nI'm the Chosen One, so you just better watch your language.\nSorry, you know how it is. Nothing quite seems to work anymore\n",
+	"Links" : {
+		"Uh-were" : "mmacaule-room-end",
+		"Im-the" : "mmacaule-room-f",
+		"Sorry-you" : "mmacaule-room-g"
+	}
+}

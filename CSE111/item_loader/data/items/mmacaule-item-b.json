@@ -1,0 +1,8 @@
+{
+	"Type" : "Item",
+	"Id" : "mmacaule-item-b",
+	"Name" : "An overgrown potato",
+	"Description" : "A potato with far too many roots coming out of it. You can kick it around, but it looks too horrifying to be taken.",
+	"Takeable" : false,
+	"Moveable" : true
+}

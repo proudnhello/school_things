@@ -1,0 +1,9 @@
+{
+	"Type" : "Room",
+	"Id" : "mmacaule-room-a",
+	"Name" : "Communication Room",
+	"Description" : "A metal room, with pipes and old computers covering almost every surface. A terminal glows with a soft, green light in front of you. Head north to turn it on.",
+	"Links" : {
+		"north" : "mmacaule-room-b"
+	}
+}

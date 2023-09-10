@@ -1,0 +1,11 @@
+{
+	"Type" : "Room",
+	"Id" : "mmacaule-room-b",
+	"Name" : "Conversation start",
+	"Description" : "Conversation ripped directly from Fallout 2. Incomplete because I am too la- I mean the conversation is too complex to implement proprly\n\nTo speak, type \"go\" followed by the first two words of the sentance you are trying to say, seperated with a dash and without punctuation.\n\nOn the terminal in front of you, there appears a helmeted man.\n\"ENCLAVE here, why isn't your video feed working?\n\n\"Uh, it's working just fine, I can see you.\"\n\"It's broken\"\n\"We're working on the visual link right now, I just wanted to test it\"",
+	"Links" : {
+		"Uh-its" : "mmacaule-room-d",
+		"Its-broken" : "mmacaule-room-c",
+		"Were-working" : "mmacaule-room-d"
+	}
+}

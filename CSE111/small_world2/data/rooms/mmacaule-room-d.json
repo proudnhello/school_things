@@ -1,0 +1,11 @@
+{
+	"Type" : "Room",
+	"Id" : "mmacaule-room-d",
+	"Name" : "Well, your",
+	"Description" : "Well, your unit doesn't appear to be operational, Pal. Who is this?\n\nI could tell you but then I'd have to kill you\nI'm the Chosen One\nWell, that's not unusual, is it? Nothing works right anymore\n",
+	"Links" : {
+		"I-could" : "mmacaule-room-c",
+		"Im-the" : "mmacaule-room-f",
+		"Well-thats" : "mmacaule-room-g"
+	}
+}

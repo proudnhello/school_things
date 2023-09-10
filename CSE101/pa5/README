@@ -1,0 +1,6 @@
+Lish.h defines the List ADT.  
+List.cpp implements the List ADT.  
+ListTest.cpp tests the List ADT.  
+To make and run it, run make test, then ./test.  
+Shuffle.cpp calculates the number of times a deck of cards from 1 - n needs to be shuffled for it to return to an unshuffled state.  
+To make and run it, rum make, then ./Shuffle <n>.

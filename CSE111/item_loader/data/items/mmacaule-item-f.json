@@ -1,0 +1,15 @@
+{
+	"Type" : "Weapon",
+	"Id" : "mmacaule-item-e",
+	"Name" : "Matchlock",
+	"Description" : "An ornately crafted Matchlock. Even if it fires, you won't hit what you're aiming at. But if you hit the guy behind him, well, there won't be much left.",
+	"Takeable" : true,
+	"Moveable" : true,
+	"AffectedItems" : "$",
+	"AffectedMethod" : "Equip",
+	"StatsEffect" : 100,
+	"Slot" : "Hands",
+	"DamageHigh" : 100000,
+	"DamageLow" : 0,
+	"RechargeTime" : 60
+}

@@ -1,0 +1,8 @@
+{
+	"Type" : "Item",
+	"Id" : "mrober10-item-a",
+	"Name" : "Mike's magic sword",
+	"Description" : "A magic sword.  On closer examination, it looks somewhat like a C++ template!",
+	"Takeable" : true,
+	"Moveable" : false
+}

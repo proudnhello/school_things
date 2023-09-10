@@ -1,0 +1,11 @@
+{
+	"Type" : "Room",
+	"Id" : "mmacaule-room-f",
+	"Name" : "Well, your",
+	"Description" : "Chosen One, huh? Well, uh, pardon me for not blowing sunshine up your ass, but I'm a little too busy for this bullshit.\n\nKneel before me and I may spare your life. Gee, I like the sound of that.\nI no longer insist upon genuflecting. A slight bow to kiss my ring should be sufficient.\nUh, I meant I was the one *chosen* to fix the comm-unit. Seems like nothing works anymore.\n",
+	"Links" : {
+		"Kneel-before" : "mmacaule-room-end",
+		"I-no" : "mmacaule-room-end",
+		"Uh-I" : "mmacaule-room-g"
+	}
+}

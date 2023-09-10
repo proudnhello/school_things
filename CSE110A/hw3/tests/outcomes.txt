@@ -1,0 +1,16 @@
+Test 1 should pass
+Test 2 should pass
+Test 3 should pass
+Test 4 should pass
+Old Test 1 should pass
+Old Test 2 should have parser error at line 8, due to a missing SEMI. While the semi is missing on line 7, the error only occurs when the next token y is encountered on the next line.
+Old Test 3 should result in a scanner error on line 3, because > is not a valid token
+Old Test 4 should result in a parser error on line 2, because the middle statement in the for loop is another asignment statment, rather than an expr
+Test 5 should result in the empty program being parsed perfectly
+Test 6 should fail on line 11 due to there being one too many RPARs.
+Test 7 should fail on line 1 due the classic putting an asignment statement inside an if statement
+Test 8 should fail on line 7, due to there being too many )
+Test 9 should fail on line 1, due to x not being declared, provided -s is passed to the command line. It should pass otherwise
+Test 10 should fail on line 6, due to y being out of scope when it gets used, provided -s is passed to the command line. It should pass otherwise
+Test 11 should pass.
+Test 12 should fail on line 6, due to the else occuring inside a block statement w/o a corresponding if.

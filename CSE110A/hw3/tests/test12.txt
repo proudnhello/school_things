@@ -1,0 +1,10 @@
+int x;
+if(x == 0){
+   int y;
+   if(x == y){
+   	int z;
+   	else{
+   	
+   	}
+   }
+}

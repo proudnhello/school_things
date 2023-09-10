@@ -1,0 +1,5 @@
+List.h contains the List ADT, and shows all of the functions provided with it.  
+List.c contains the code for the List ADT.  
+ListTest.c is a file that tests the output of the List ADT. Compile it by running make test, then run ./test to use it.  
+Lex.c uses the List ADT to order the lines of an input file. Compile it by running make Lex, then run ./Lex <input file> <output file> to use it.  
+Makefile is used to compile the provided programs.  

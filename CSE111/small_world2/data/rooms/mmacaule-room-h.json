@@ -1,0 +1,9 @@
+{
+	"Type" : "Room",
+	"Id" : "mmacaule-room-h",
+	"Name" : "Well, your",
+	"Description" : "Yeah, you know how unhappy he gets when people complain. He takes it personal, like it's a loyalty thing. Maybe that just goes with being the President of the United States. Or what's left of 'em.\n\nThe President of the United States?\n",
+	"Links" : {
+		"The-President" : "mmacaule-room-i"
+	}
+}

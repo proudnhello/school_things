@@ -1,0 +1,10 @@
+{
+	"Type" : "Room",
+	"Id" : "mmacaule-room-end2",
+	"Name" : "Well, your",
+	"Description" : "I've got you, in California, UCSC. Ah, well, why don't you just sit tight and I'll order up a little celebration for ya. Including fireworks.\n\nI'm not anyone important. I'm going to go now. Goodbye.\nYou know, I think I'll complete a conviently placed tile puzzle to escape",
+	"Links" : {
+		"Im-not" : "mmacaule-room-end3",
+		"You-know" : "acerruti-room34782"
+	}
+}

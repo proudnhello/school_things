@@ -1,0 +1,14 @@
+Lish.h defines the List ADT.  
+List.cpp implements the List ADT.  
+ListTest.cpp tests the List ADT.  
+To make and run it, run make ListTest, then ./ListTest.  
+  
+BigInteger.h defines the BigInteger ADT.  
+BigInteger.cpp implements the BigInteger ADT.  
+BigIntegerTest.cpp tests the BigInteger ADT.  
+To make and run it, run make BigIntegerTest, then ./BigIntegerTest.  
+  
+Arithmetic.cpp reads in two integers from an infile, performs a number of operations on them, then prints the result to an outfile.  
+To make and run it, run make Arithmetic, then ./Arithmetic <infile> <outfile>.  
+  
+The Makefile is used to compile all the above programs

@@ -1,0 +1,11 @@
+List.h provides the List ADT  
+List.c is the implementation of the List ADT  
+Graph.h is the Graph ADT  
+Graph.c is the implementation of the Graph ADT  
+GraphTest.c was used to test the implementation of the Graph ADT.  
+It can be compiled with make test, then run with ./test  
+FindPath.c will recreate an undirected Graph from a file, then calculate a path between nodes.  
+It can be compiled with make or make FindPath, and run with ./FindPath <input> <output>.  
+If a line contains two ints, and then a character, the program will ignore the character and anything else on the line past it.  
+IE, given the line "2 3 e", the program will simply parse 2 and 3 and ignore everything else in the line. 
+However, given 3 ints, the program will throw an error, and characters located anywhere else will also cause errors.
